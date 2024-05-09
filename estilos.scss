@@ -1,0 +1,169 @@
+$c1: crimson;
+$c2: rgb(204, 146, 177);
+$c3: whitesmoke;
+$c4: black;
+$f1: arial;
+
+* {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: $c3;
+}
+
+.logo {
+    color: $c4;
+    font-size: 60px;
+    font-style: oblique;
+    text-shadow: 4px 2px 4px $c1;
+    font-weight: bold;
+}
+
+
+.logo strong {
+    color: $c1;
+    text-shadow: 4px 2px 4px black;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: pink;
+    color: $c4;
+    align-items: center;
+}
+
+.nav-item :hover {
+    color: $c4;
+    background-color: $c2;
+}
+
+.nav nav-tabs {
+    background-color: $c3;
+}
+
+.nav nav-tabs :hover {
+    color: pink;
+    width: 25px;
+}
+
+.nosotros {
+    align-content: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.container-sm {
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.container-md {
+    align-content: center;
+    margin-top: 5px;
+}
+
+.container-lg {
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.container-xl {
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.container-xxl {
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    background-color: pink;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.col-social{
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.col-social a {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: pink;
+    text-decoration: none;
+    color:crimson;
+}
+
+.col-social :hover{
+    color: palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: pink;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    font-size: small;
+    font-family: $f1;
+    font-style: oblique;
+    font-weight: bold;
+}
