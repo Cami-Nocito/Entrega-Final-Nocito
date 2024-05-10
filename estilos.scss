@@ -31,16 +31,22 @@ $f1: arial;
     font-weight: bold;
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .logo{
         font-size: 1.9rem;
     }
     .products{
+        font-size: 1.9rem;
+    }
+    .nav-item{
+        font-size: 1.9rem;
+    }
+    .nav-link{
         font-size: 1.9rem;
     }
 }
 
-@media(min-width:601px) and (max-width:900px){
+@media screen and(min-width:601px) and (max-width:900px){
     .logo{
         font-size: 1.95rem;
         align-items: center;
@@ -48,6 +54,12 @@ $f1: arial;
     .products{
         font-size: 1.95rem;
         align-items: center;
+    }
+    .nav-item{
+        font-size: 1.95rem;
+    }
+    .nav-link{
+        font-size: 1.95rem;
     }
 }
 
@@ -183,7 +195,10 @@ p {
     width: 229.59cm x 529.19cm;
 }
 
-
+#carouselExampleFade{
+    width: 150px;
+    height: 150px;
+}
 
 
 
