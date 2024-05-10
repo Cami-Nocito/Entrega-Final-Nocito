@@ -13,23 +13,33 @@
 <body>
     <header>
         <div class="logo">Kishu<strong>Petshop</strong></div>
-        <ul class="nav nav-tabs" style="padding-left: 480px;">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/Nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/Productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/Patitas felices.html">Patitas felices</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
-            </li>
-        </ul>
+        <nav class="navbar navbar-expand-xxl">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/Patitas felices.html">Patitas felices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <h1>Nuestro contacto</h1>
@@ -46,13 +56,23 @@
                 <div class="col">
                     Whatsapp: 3764351055 <br>Email: kishu@petshop.com
                 </div>
-                <div class="col-social">
+                <div class="col-social .col .col-sm .col-md">
                     Tambíen podes visitarnos en nuestra red social:<a
-                        href="https://www.instagram.com/">@Kishu_Petshop</a>
+                        href="https://www.instagram.com/"><br>@Kishu_Petshop</a>
                 </div>
             </div>
         </div>
     </main>
+    <section>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Dejanos tu contacto!!</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu número de teléfono">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Si quieres saber algo, puedes realizarnos tu consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Dejanos un mensaje :)</textarea>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
