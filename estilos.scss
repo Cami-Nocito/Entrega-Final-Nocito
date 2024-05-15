@@ -4,10 +4,10 @@ $c4: black;
 $f1: arial;
 
 * {
-    background-color: green;
     text-align: center;
     padding: 0;
     margin: 0;
+    background-color: cadetblue;
 }
 
 
@@ -152,7 +152,7 @@ p {
     font-size: 15px;
     background-color: pink;
     text-decoration: none;
-    color:crimson;
+    color:black;
     padding-top: 5px;
 }
 
@@ -196,11 +196,10 @@ p {
     background-color: aqua;
 }
 
-container-fluid{
-    width: 100px;
-    height: 50px;
+.carousel-item{
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
 }
-
 
 
 

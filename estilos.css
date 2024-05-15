@@ -131,7 +131,6 @@ p {
 .col-social {
   font-weight: bold;
   margin-top: 10px;
-  background-color: pink;
 }
 
 .col-social a {
@@ -139,7 +138,7 @@ p {
   font-size: 15px;
   background-color: pink;
   text-decoration: none;
-  color: crimson;
+color: black;
   padding-top: 5px;
 }
 
@@ -179,6 +178,17 @@ p {
   height: auto;
 }
 
+.carousel-inner{
+  display: flex;
+  transition: transform 0.5s ease ;
+}
+
+.carousel-item{
+  flex: 0 0 auto;
+  transition: transform 0.5s ease;
+}
+
+
 footer {
   align-content: center;
   width: auto;
@@ -191,3 +201,4 @@ h3 {
   font-style: oblique;
   font-weight: bold;
 }/*# sourceMappingURL=estilos.css.map */
+

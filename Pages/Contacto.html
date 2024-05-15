@@ -13,33 +13,15 @@
 <body>
     <header>
         <div class="logo">Kishu<strong>Petshop</strong></div>
-        <nav class="navbar navbar-expand-xxl">
-            <div class="container-fluid">
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Pages/Nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Pages/Productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Pages/Patitas felices.html">Patitas felices</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="col-social">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="../index.html">Inicio</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/Nosotros.html">Nosotros</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/Productos.html">Productos</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/Patitas felices.html">Patitas felices</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/Contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
     <main>
         <h1>Nuestro contacto</h1>
@@ -69,7 +51,8 @@
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu número de teléfono">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Si quieres saber algo, puedes realizarnos tu consulta</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Si quieres saber algo, puedes realizarnos tu
+                consulta</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Dejanos un mensaje :)</textarea>
         </div>
     </section>
