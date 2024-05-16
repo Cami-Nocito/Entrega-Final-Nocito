@@ -2,7 +2,7 @@
   text-align: center;
   padding: 10px;
   margin: 15px;
-  background-color: pink;
+  background-color: white
 }
 
 .logo {
@@ -119,7 +119,7 @@
 h1 {
   font-size: 55px;
   font-weight: bold;
-  background-color: white;
+  background-color: pink;
 }
 
 p {
@@ -136,9 +136,9 @@ p {
 .col-social a {
   font-weight: bold;
   font-size: 15px;
-  background-color:white;
+  background-color:pink;
   text-decoration: none;
-color: crimson;
+color: black;
   padding-top: 5px;
 }
 
