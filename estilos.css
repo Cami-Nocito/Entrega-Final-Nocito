@@ -2,7 +2,8 @@
   text-align: center;
   padding: 10px;
   margin: 15px;
-  background-color: white
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -17,6 +18,19 @@
   font-weight: bold;
 }
 
+.section-principal{
+  width: 100%;
+  height: 500px;
+  background-color: blueviolet;
+  background-image: url(./Multimedia/Perro\ Inicial.jpg);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color:black;
+  font-size: 20px;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   .logo {
     font-size: 1.9rem;
@@ -25,6 +39,7 @@
     font-size: 1.9rem;
   }
 }
+
 @media (min-width: 601px) and (max-width: 900px) {
   .logo {
     font-size: 1.95rem;
@@ -35,6 +50,7 @@
     align-items: center;
   }
 }
+
 .logo strong {
   display: flex;
   width: 80%;
@@ -173,6 +189,9 @@ color: black;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   background-color: pink;
   width: auto;
   height: auto;
@@ -197,6 +216,12 @@ footer {
   align-content: center;
   width: auto;
   height: auto;
+}
+
+.footer p{
+  background-color: pink;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 h3 {
