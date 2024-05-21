@@ -1,7 +1,7 @@
 * {
   text-align: center;
-  padding: 10px;
-  margin: 15px;
+  padding: .625rem;
+  margin: .9375rem;
   background-color: white;
   box-sizing: border-box;
 }
@@ -12,41 +12,41 @@
   width: 80%;
   padding-right: 85%;
   color: black;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-style: oblique;
-  text-shadow: 4px 2px 4px crimson;
+  text-shadow: .25rem .125rem .25rem crimson;
   font-weight: bold;
 }
 
 .section-principal{
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
   background-color: blueviolet;
   background-image: url(./Multimedia/Perro\ Inicial.jpg);
   background-position: center;
   display: flex;
   align-items: center;
   color:black;
-  font-size: 20px;
+  font-size: 1.25rem;
   justify-content: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .logo {
-    font-size: 1.9rem;
+    font-size: 30.4px;
   }
   .products {
-    font-size: 1.9rem;
+    font-size: 30.4px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 37.5625rem) and (max-width: 56.25rem) {
   .logo {
-    font-size: 1.95rem;
+    font-size: 31.2px;
     align-items: center;
   }
   .products {
-    font-size: 1.95rem;
+    font-size: 31.2px;
     align-items: center;
   }
 }
@@ -55,16 +55,14 @@
   display: flex;
   width: 80%;
   color: crimson;
-  text-shadow: 4px 2px 4px black;
+  text-shadow: .25rem .125rem .25rem black;
 }
 
 .container-fluid {
-  height: 150px;
+  height: 9.375rem;
 }
 
-.navbar-brand {
-  justify-content: center;
-}
+
 
 .navbar-nav {
   margin-top: auto;
@@ -73,8 +71,8 @@
 }
 
 .nav-link {
-  padding-top: 2px;
-  font-size: 25px;
+  padding-top: .125rem;
+  font-size: 1.5625rem;
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -82,8 +80,8 @@
 }
 
 .nav-item {
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   align-self: center;
 }
 
@@ -98,64 +96,64 @@
 
 .nav nav-tabs :hover {
   color: pink;
-  width: 25px;
+  width: 1.5625rem;
 }
 
 .nosotros {
   align-content: center;
-  margin-top: 5px;
-  margin-bottom: 3px;
+  margin-top: .3125rem;
+  margin-bottom: .1875rem;
 }
 
 .container-sm {
   align-content: center;
-  margin-bottom: 5px;
+  margin-bottom: .3125rem;
 }
 
 .container-md {
   align-content: center;
-  margin-top: 5px;
+  margin-top: .3125rem;
 }
 
 .container-lg {
   align-content: center;
-  margin-bottom: 5px;
+  margin-bottom: .3125rem;
 }
 
 .container-xl {
   align-content: center;
-  margin-bottom: 5px;
+  margin-bottom: .3125rem;
 }
 
 .container-xxl {
   align-content: center;
-  margin-bottom: 5px;
+  margin-bottom: .3125rem;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-weight: bold;
   background-color: pink;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
 }
 
 .col-social {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: .625rem;
 }
 
 .col-social a {
   font-weight: bold;
-  font-size: 15px;
+  font-size: .9375rem;
   background-color:pink;
   text-decoration: none;
 color: black;
-  padding-top: 5px;
+  padding-top: .3125rem;
 }
 
 .col-social :hover {
@@ -172,21 +170,7 @@ color: black;
   align-self: center;
 }
 
-.card-img-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
 
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 229.59cm x 529.19cm;
-}
 
 .footer {
   display: flex;
@@ -195,20 +179,6 @@ color: black;
   background-color: pink;
   width: auto;
   height: auto;
-}
-
-.carousel{
-  width: auto;
-}
-
-.carousel-inner{
-  display: flex;
-  transition: transform 0.5s ease ;
-}
-
-.carousel-item{
-  flex: 0 0 auto;
-  width: 100%;
 }
 
 
@@ -224,10 +194,5 @@ footer {
   font-style: oblique;
 }
 
-h3 {
-  font-size: small;
-  font-family: arial;
-  font-style: oblique;
-  font-weight: bold;
-}/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css.map */
 

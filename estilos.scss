@@ -23,6 +23,19 @@ $f1: arial;
     font-weight: bold;
 }
 
+.section-principal{
+    width: 100%;
+    height: 31.25rem;
+    background-color: blueviolet;
+    background-image: url(./Multimedia/Perro\ Inicial.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 1.25rem;
+    justify-content: center;
+}
+
 @media screen and (max-width: 600px){
     .logo{
         font-size: 1.9rem;
@@ -60,6 +73,10 @@ $f1: arial;
     width: 80%;
     color: $c1;
     text-shadow: 4px 2px 4px black;
+}
+
+.container-fluid {
+    height: 9.375rem;
 }
 
 .navbar-nav{
@@ -170,67 +187,6 @@ p {
     align-self: center;
 }
 
-.card-img-top{
-    display: flex;
-    flex-direction: row;   
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-
-}
-
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 229.59cm x 529.19cm;
-}
-
-#carouselExampleFade{
-    width: 150px;
-    height: 150px;
-}
-
-#navbarNav{
-    background-color: aqua;
-}
-
-.carousel-item{
-    flex: 0 0 auto;
-    transition: transform 0.5s ease;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
     background-color: pink;
@@ -244,9 +200,3 @@ footer {
     height: auto;
 }
 
-h3 {
-    font-size: small;
-    font-family: $f1;
-    font-style: oblique;
-    font-weight: bold;
-}
